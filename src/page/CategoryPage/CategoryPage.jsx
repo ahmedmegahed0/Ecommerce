@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react'
 import { useParams } from 'react-router-dom';
 import Product from '../../components/slideProducts/Product';
-import "./categorypage.css";
+import "./CategoryPage.css";
 import SlideProductLoading from '../../components/slideProducts/SlideProductLoading';
 import PageTransition from '../../components/PageTransition';
 
