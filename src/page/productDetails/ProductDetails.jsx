@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react'
 import { useParams } from 'react-router-dom'
-import './productDetails.css'
+import './productdetails.css'
 import SlideProduct from '../../components/slideProducts/SlideProduct';
 import ProductDetailsoading from "./ProductDetailsLoading"
 import SlideProductLoading from '../../components/slideProducts/SlideProductLoading';
