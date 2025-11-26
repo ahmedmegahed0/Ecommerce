@@ -6,7 +6,7 @@ const About = (item) => {
   return (
     <div className="about-page">
       <div className="container">
-        <h1>About Reda Online Store</h1>
+        <h1>About Megahed Online Store</h1>
         
      
         <section className="about-section story-section">
