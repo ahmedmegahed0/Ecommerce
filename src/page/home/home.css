@@ -1,0 +1,161 @@
+.hero{
+    position: relative;
+    margin-bottom: 80px;
+    padding-top: 20px;
+}
+
+.swiper-slide .content{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 5%;
+   
+}
+
+.swiper-slide .content h4{
+    text-transform: uppercase;
+    font-size: 1vw; 
+    font-style: italic;
+    font-weight: normal;
+    margin-bottom: 0.4vw;
+}
+
+.swiper-slide .content h3{
+    font-size: 3vw;
+    text-transform: capitalize;
+    margin-bottom: 30px;
+    color: var(--main_color);
+    font-weight: bolder;
+    line-height: 1.1;
+}
+
+.swiper-slide .content p{
+    font-size: 1.1vw;
+    margin-top: 2.5vw;
+    margin-bottom: 2.5vw;
+}
+
+
+.main-app-header {
+  position: fixed; 
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1000; 
+  background-color: white; 
+
+}
+
+.page-content-wrapper {
+
+  padding-top: 130px; 
+  position: relative; 
+  z-index: 1; 
+}
+
+@media (max-width: 768px) {
+  .page-content-wrapper {
+    padding-top: 100px; 
+  }
+} 
+
+
+/* ================== Responsive Home Page ================== */
+/* 
+@media (max-width: 768px) {
+  .hero {
+    margin-bottom: 40px;
+    padding-top: 10px;
+  }
+
+  .swiper-slide .content {
+    left: 5%;
+    right: 5%;
+    max-width: 90%;
+  }
+
+  .swiper-slide .content h4 {
+    font-size: 12px;
+    margin-bottom: 5px;
+  }
+
+  .swiper-slide .content h3 {
+    font-size: 24px;
+    margin-bottom: 15px;
+    line-height: 1.2;
+  }
+
+  .swiper-slide .content p {
+    font-size: 13px;
+    margin-top: 10px;
+    margin-bottom: 15px;
+    line-height: 1.4;
+  }
+
+  .swiper-slide .content .btn {
+    font-size: 13px;
+    padding: 8px 15px;
+  }
+
+  .page-content-wrapper {
+    padding-top: 100px;
+  }
+
+
+  .swiper-pagination-bullet {
+    width: 8px !important;
+    height: 8px !important;
+  }
+}
+
+@media (max-width: 400px) {
+  .hero {
+    margin-bottom: 30px;
+  }
+
+  .swiper-slide .content h4 {
+    font-size: 11px;
+  }
+
+  .swiper-slide .content h3 {
+    font-size: 20px;
+    margin-bottom: 12px;
+  }
+
+  .swiper-slide .content p {
+    font-size: 12px;
+    margin-top: 8px;
+    margin-bottom: 12px;
+  }
+
+  .swiper-slide .content .btn {
+    font-size: 12px;
+    padding: 7px 12px;
+  }
+
+  .page-content-wrapper {
+    padding-top: 90px;
+  }
+
+  .swiper-pagination-bullet {
+    width: 6px !important;
+    height: 6px !important;
+  }
+}
+
+@media (max-width: 768px) and (orientation: landscape) {
+  .hero {
+    margin-bottom: 20px;
+  }
+
+  .swiper-slide .content h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+
+  .swiper-slide .content p {
+    font-size: 12px;
+    margin-top: 8px;
+    margin-bottom: 10px;
+  }
+} */
